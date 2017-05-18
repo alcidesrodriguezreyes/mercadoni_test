@@ -1,0 +1,10 @@
+{
+  "port": 8100,
+  "forbid": "*.json",
+  "mocks": [
+      {
+          "route": "/file",
+          "module": "app/api/api.js"
+      }
+  ]
+}

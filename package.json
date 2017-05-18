@@ -1,10 +1,6 @@
 {
   "name": "mercadoni_test",
   "version": "1.0.0",
-  "local-web-server": {
-    "port": 8100,
-    "forbid": "*.json"
-  },
   "description": "front end test for mercadoni",
   "main": "index.html",
   "scripts": {
