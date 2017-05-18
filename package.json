@@ -1,0 +1,28 @@
+{
+  "name": "mercadoni_test",
+  "version": "1.0.0",
+  "local-web-server": {
+    "port": 8100,
+    "forbid": "*.json"
+  },
+  "description": "front end test for mercadoni",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm test",
+    "start": "ws"
+  },
+  "keywords": [
+    "mercadoni",
+    "google",
+    "maps",
+    "unicorn"
+  ],
+  "author": "alcides rodriguez",
+  "license": "ISC",
+  "devDependencies": {
+    "local-web-server": "^1.2.7"
+  },
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
