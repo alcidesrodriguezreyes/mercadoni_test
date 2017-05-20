@@ -12,7 +12,7 @@
             "Accept": "application/json;charset=utf-8"
           }
         }).then(function(response){
-          console.log(response);
+          $scope.addressarray = response.data.trim().split('\n');
         });
     }]
   );

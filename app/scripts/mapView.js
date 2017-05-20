@@ -1,8 +1,14 @@
 function mapViewController() {
-    console.log('map view');
+
+    this.$onChanges = function (){
+        console.log(this.addressarray);
+    };
 }
 
 angular.module('app').component('mapView', {
     templateUrl: 'app/mapView.html',
-    controller: mapViewController
+    controller: mapViewController,
+    bindings: {
+        addressarray: '<'
+    }
 });

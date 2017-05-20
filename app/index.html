@@ -7,9 +7,9 @@
     <title>Bootstrap 101 Template</title>
 
   </head>
-  <body ng-controller="appController">
+  <body ng-controller="appController as ctrl">
     <h1>{{title}}</h1>
-    <map-view></map-view>
+    <map-view addressarray="addressarray"></map-view>
     <script src="../node_modules/angular/angular.min.js"></script>
     <script src="./app/scripts/app.js"></script>
     <script src="./app/scripts/mapView.js"></script>
